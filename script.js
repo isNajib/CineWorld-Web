@@ -4,7 +4,7 @@ $("#search-button").on("click", function () {
     type: "get",
     dataType: "json",
     data: {
-      apikey: "", //isi apikey disini
+      apikey: "9430f0f4",
       s: $("#search-input").val(),
     },
     success: function (response) {
